@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 
 export default function Current() {
   let weatherData = {
@@ -18,7 +18,7 @@ export default function Current() {
         <h3 id="temperature">{weatherData.temperature}</h3>
         <ul>
           <li className="weather-units" id="units">
-            <a href="#" id="fahrenheit-link" class="active">
+            <a href="#" id="fahrenheit-link" class="active" rel="noreferrer">
               °F
             </a>
             |
